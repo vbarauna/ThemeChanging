@@ -1,0 +1,78 @@
+body{
+  background-color: rgb(19, 19, 19);
+}
+
+div{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 700px;
+  margin-right: 700px;
+  border-radius: 10px;
+  background-color: var(--bg);
+  box-shadow: -3px 3px 10px 1px var(--shadowColor);
+}
+
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--h1Color);
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+ul{
+  font-family: Helvetica;
+  font-size: 18px;
+  margin-left: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  list-style: square;
+  color: var(--liColor);
+}
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  height: 40px;
+  width: 300px;
+  border-radius: 30px;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}
+
+.light-theme {
+  --bg: var(--lgreen);
+  --h1Color: var(--dpurple);
+  --fontColor: var(--dgrey);
+  --liColor:var(--dgrey);
+  --btnFontColor: var(--lgrey);
+  --btnBg: var(--purple);
+  --shadowColor:var(--purple);
+}
+
+.dark-theme {
+  --bg: var(--blue);
+  --h1Color:var(--lgrey);
+  --fontColor: var(--lgrey);
+  --liColor: var(--yellow);
+  --btnFontColor: var(--blue);
+  --btnBg: var(--yellow);
+  --shadowColor: var(--yellow);
+}
+
+:root {
+  --lgreen: #74bb51;
+  --lgrey: #cbcbcd;
+  --dgrey: #1A1A1A;
+  --purple: #7300e6;
+  --dpurple: #5800b1;
+  --yellow: #ffd11a;
+  --blue: #002db3;
+}
